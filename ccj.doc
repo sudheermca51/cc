@@ -1,0 +1,534 @@
+Message-ID: <843753027.20350.1522222789706.JavaMail.atlassian@swcoealpcfce01>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_20349_1829985415.1522222789706"
+
+------=_Part_20349_1829985415.1522222789706
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Code Coverage For Java Applications</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Code Coverage For Java Applications</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"CodeCoverageForJavaApplications-/*<![CDATA[*/div.rbtoc152=
+2222789632{padding:0px;}div.rbtoc1522222789632ul{list-style:disc;margin-lef=
+t:0px;}div.rbtoc1522222789632li{margin-left:0px;padding-left:0px;}/*]]>*/#C=
+odeCoverageForJavaApplications-Integration/Funct"><strong><style type=3D"te=
+xt/css">/*<![CDATA[*/
+div.rbtoc1522222789632 {padding: 0px;}
+div.rbtoc1522222789632 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1522222789632 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1522222789632">=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#CodeCoverageForJavaApplications-"></a></li>=20
+<li><a href=3D"#CodeCoverageForJavaApplications-Integration/Functionalcodec=
+overageconfigurationforJavaapplications=E2=80=94API(ServerSide)">Integratio=
+n / Functional code coverage configuration for Java applications&nbsp;=E2=
+=80=94&nbsp;API(Server Side)&nbsp;</a></li>=20
+<li><a href=3D"#CodeCoverageForJavaApplications-SonarqubeconfigurationforJa=
+vaapplications">Sonarqube configuration for Java applications</a></li>=20
+<li><a href=3D"#CodeCoverageForJavaApplications-Deploy&amp;StartServer">Dep=
+loy &amp; Start Server</a></li>=20
+<li><a href=3D"#CodeCoverageForJavaApplications-Runfunctional/integrationte=
+sts">Run functional/integration tests</a></li>=20
+<li><a href=3D"#CodeCoverageForJavaApplications-Howtocollectcodecoveragerep=
+ortsfromBuild&amp;Servermachines">How to collect code coverage reports from=
+ Build &amp; Server machines</a></li>=20
+</ul>=20
+</div><br></strong></h2>
+<h2 id=3D"CodeCoverageForJavaApplications-Integration/Functionalcodecoverag=
+econfigurationforJavaapplications=E2=80=94API(ServerSide)"><strong>Integrat=
+ion / Functional code coverage configuration for Java applications&nbsp;=E2=
+=80=94&nbsp;</strong><strong>API(Server Side)</strong><strong>&nbsp;</stron=
+g></h2>
+<p>Jacoco (on the fly instrumentation)</p>
+<ul>
+<li><p>Add Below snippet in pom.xml</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>pom.xml</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">     &l=
+t;properties&gt;
+         &lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.source=
+Encoding&gt;
+         &lt;java.version&gt;1.8&lt;/java.version&gt;
+         &lt;jacoco.version&gt;0.7.8&lt;/jacoco.version&gt;
+=09=09  &lt;sonar.maven.version&gt;3.2&lt;/sonar.maven.version&gt;
+     &lt;/properties&gt;
+=20
+     &lt;dependencies&gt;
+       =09&lt;dependency&gt;
+           &lt;groupId&gt;org.jacoco&lt;/groupId&gt;
+           &lt;artifactId&gt;org.jacoco.agent&lt;/artifactId&gt;
+           &lt;version&gt;${jacoco.version}&lt;/version&gt;
+           &lt;classifier&gt;runtime&lt;/classifier&gt;
+           &lt;scope&gt;test&lt;/scope&gt;
+       &lt;/dependency&gt;
+&nbsp;
+       &lt;dependency&gt;
+=09=09=09&lt;groupId&gt;org.sonarsource.scanner.maven&lt;/groupId&gt;
+=09=09=09&lt;artifactId&gt;sonar-maven-plugin&lt;/artifactId&gt;
+=09=09=09&lt;version&gt;${sonar.maven.version}&lt;/version&gt;
+=09=09&lt;/dependency&gt;
+     &lt;/dependencies&gt;
+&nbsp;
+&lt;profiles&gt;
+&lt;profile&gt;
+=09=09=09&lt;id&gt;SonarScanner&lt;/id&gt;
+=09=09=09&lt;activation&gt;
+=09=09=09=09&lt;property&gt;
+=09=09=09=09=09&lt;name&gt;SonarScanner&lt;/name&gt;
+=09=09=09=09=09&lt;value&gt;true&lt;/value&gt;
+=09=09=09=09&lt;/property&gt;
+=09=09=09&lt;/activation&gt;
+=09=09=09&lt;properties&gt;
+=09=09=09=09&lt;jacoco.destFile&gt;${project.build.directory}/jacoco.exec&l=
+t;/jacoco.destFile&gt;
+=09=09=09=09&lt;sonar.jdbc.url&gt;jdbc:mysql://sjc1og02.crd.ge.com:3306/son=
+arqube&lt;/sonar.jdbc.url&gt;
+=09=09=09=09&lt;sonar.jdbc.username&gt;sonarqube&lt;/sonar.jdbc.username&gt=
+;
+=09=09=09=09&lt;sonar.jdbc.password&gt;SonarQube123!&lt;/sonar.jdbc.passwor=
+d&gt;
+=09=09=09=09&lt;sonar.host.url&gt;http://sjc1og02.crd.ge.com:9000/sonar&lt;=
+/sonar.host.url&gt;
+=09=09=09=09&lt;sonar.projectKey&gt;OGD-Bglr-Hydro-Datasource-Service&lt;/s=
+onar.projectKey&gt;
+=09=09=09=09&lt;sonar.projectName&gt;OGD-Bglr-Hydro-Datasource-Service&lt;/=
+sonar.projectName&gt;
+=09=09=09=09&lt;sonar.projectVersion&gt;1.0&lt;/sonar.projectVersion&gt;
+=09=09=09=09&lt;sonar.language&gt;java&lt;/sonar.language&gt;
+=09=09=09=09&lt;sonar.java.coveragePlugin&gt;jacoco&lt;/sonar.java.coverage=
+Plugin&gt;
+=09=09=09=09&lt;sonar.dynamicAnalysis&gt;reuseReports&lt;/sonar.dynamicAnal=
+ysis&gt;
+=09=09=09=09&lt;sonar.jacoco.reportMissing.force.zero&gt;true&lt;/sonar.jac=
+oco.reportMissing.force.zero&gt;
+=09=09=09=09&lt;sonar.jacoco.reportPath&gt;${jacoco.destFile}&lt;/sonar.jac=
+oco.reportPath&gt;
+=09=09=09&lt;/properties&gt;
+=09=09=09&lt;build&gt;
+=09=09=09=09&lt;plugins&gt;
+=09=09=09=09=09&lt;plugin&gt;
+=09=09=09=09=09=09&lt;groupId&gt;org.jacoco&lt;/groupId&gt;
+=09=09=09=09=09=09&lt;artifactId&gt;jacoco-maven-plugin&lt;/artifactId&gt;
+=09=09=09=09=09=09&lt;executions&gt;
+=09=09=09=09=09=09=09&lt;execution&gt;
+=09=09=09=09=09=09=09=09&lt;id&gt;default-prepare-agent&lt;/id&gt;
+=09=09=09=09=09=09=09=09&lt;goals&gt;
+=09=09=09=09=09=09=09=09=09&lt;goal&gt;prepare-agent&lt;/goal&gt;
+=09=09=09=09=09=09=09=09&lt;/goals&gt;
+=09=09=09=09=09=09=09=09&lt;configuration&gt;
+=09=09=09=09=09=09=09=09=09&lt;append&gt;true&lt;/append&gt;
+=09=09=09=09=09=09=09=09=09&lt;destFile&gt;${jacoco.destFile}&lt;/destFile&=
+gt;
+=09=09=09=09=09=09=09=09&lt;/configuration&gt;
+=09=09=09=09=09=09=09&lt;/execution&gt;
+=09=09=09=09=09=09&lt;/executions&gt;
+=09=09=09=09=09&lt;/plugin&gt;
+=09=09=09=09&lt;/plugins&gt;
+=09=09=09=09&lt;pluginManagement&gt;
+=09=09=09=09=09&lt;plugins&gt;
+=09=09=09=09=09=09&lt;plugin&gt;
+=09=09=09=09=09=09=09&lt;groupId&gt;org.sonarsource.scanner.maven&lt;/group=
+Id&gt;
+=09=09=09=09=09=09=09&lt;artifactId&gt;sonar-maven-plugin&lt;/artifactId&gt=
+;
+=09=09=09=09=09=09=09&lt;version&gt;${sonar.maven.version}&lt;/version&gt;
+=09=09=09=09=09=09&lt;/plugin&gt;
+=09=09=09=09=09=09&lt;plugin&gt;
+=09=09=09=09=09=09=09&lt;groupId&gt;org.jacoco&lt;/groupId&gt;
+=09=09=09=09=09=09=09&lt;artifactId&gt;jacoco-maven-plugin&lt;/artifactId&g=
+t;
+=09=09=09=09=09=09=09&lt;version&gt;${jacoco.version}&lt;/version&gt;
+=09=09=09=09=09=09&lt;/plugin&gt;
+=09=09=09=09=09&lt;/plugins&gt;
+=09=09=09=09&lt;/pluginManagement&gt;
+=09=09=09&lt;/build&gt;
+=09=09&lt;/profile&gt;
+&lt;/profiles&gt;</pre>=20
+</div>
+</div></li>
+</ul>
+<h2 id=3D"CodeCoverageForJavaApplications-SonarqubeconfigurationforJavaappl=
+ications"><strong>Sonarqube configuration for Java applications</strong></h=
+2>
+<ul>
+<li><p>Add sonar.properties&nbsp;at&nbsp;dev code&nbsp;project level direct=
+ory with below information and modify properties file relative to your proj=
+ect =E2=80=94 For reference, download this attachment&nbsp;<a href=3D"https=
+://devcloud.swcoe.ge.com/devspace/download/attachments/1189359056/sonar-pro=
+ject.properties?version=3D1&amp;modificationDate=3D1505114132000&amp;api=3D=
+v2" rel=3D"nofollow">sonar-project.properties</a></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>sonar-project.properties</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">sonar.j=
+dbc.url=3Djdbc:mysql://sjc1og02.crd.ge.com:3306/sonarqube
+sonar.jdbc.username=3Dsonarqube
+sonar.jdbc.password=3DSonarQube123!
+sonar.host.url=3Dhttp://sjc1og02.crd.ge.com:9000/sonar
+
+sonar.projectKey=3DOGD-Bglr-Hydro-Datasource-Service
+sonar.projectName=3DOGD-Bglr-Hydro-Datasource-Service
+sonar.projectVersion=3D1.0.0
+
+sonar.java.coveragePlugin=3Djacoco
+sonar.java.source=3D8
+
+sonar.sources=3Dpom.xml,src/main/java
+sonar.java.binaries=3Dtarget/classes
+sonar.tests=3Dsrc/test/java
+sonar.language=3Djava
+
+sonar.dynamicAnalysis=3DreuseReports
+sonar.jacoco.reportPath=3Dtarget/jacoco.exec</pre>=20
+</div>
+</div></li>
+</ul>
+<h2 id=3D"CodeCoverageForJavaApplications-Deploy&amp;StartServer"><strong>D=
+eploy &amp; Start Server</strong></h2>
+<p>Start/Deploy your project with the below Java Options, jacoco.exec &amp;=
+&nbsp;jacoco<span style=3D"font-size: 14.0px;">-it.exec would be generated =
+after the unit &amp; integration tests are executed. Follow below steps:</s=
+pan></p>
+<p><span style=3D"font-size: 14.0px;"><br></span></p>
+<div class=3D"toc-macro client-side-toc-macro  hidden-outline">
+<ol>
+<li><p>Checkout dev code and run unit tests on the build&nbsp;machine.&nbsp=
+;// Will generate the target file with unit test results in&nbsp;jacoco.exe=
+c, &lt;&lt;service&gt;&gt;.jar and surefire classes.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">mvn cle=
+an install -DSonarScanner</pre>=20
+</div>
+</div></li>
+<li>Copy target folder from build machine to the server machine.</li>
+<li><p>Start Server with Jacoco instrument mode. It generates a&nbsp;jacoco=
+-it.exec file</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">java -j=
+avaagent:/Users/kishorepolisetty/.m2/repository/org/jacoco/org.jacoco.agent=
+/0.7.8/org.jacoco.agent-0.7.8-runtime.jar=3Dincludes=3D*,destfile=3D&lt;&lt=
+;pwd&gt;&gt;/&lt;&lt;Service_name&gt;&gt;/target/jacoco-it.exec,dumponexit=
+=3Dtrue,output=3Dfile -jar target/service-0.0.1.jar</pre>=20
+</div>
+</div><p><u><em><strong>Jenkins Job:</strong></em></u><em><strong>&nbsp;</s=
+trong></em><a href=3D"https://predix2.jenkins.build.ge.com/job/Catalogue-Je=
+nkins-Setup/job/Hydro_DataSource_Service/job/Hydro-Datasource-Service/" cla=
+ss=3D"external-link" rel=3D"nofollow">https://predix2.jenkins.build.ge.com/=
+job/Catalogue-Jenkins-Setup/job/Hydro_DataSource_Service/job/Hydro-Datasour=
+ce-Service/</a></p></li>
+</ol>
+<h2 id=3D"CodeCoverageForJavaApplications-Runfunctional/integrationtests"><=
+strong style=3D"font-size: 20.0px;"><span class=3D"toc-item-body">Run funct=
+ional/integration tests</span></strong></h2>
+<ul>
+<li>Run regression test suite for the specific micro-service.</li>
+</ul>
+<p>&nbsp;</p>
+<div class=3D"toc-macro client-side-toc-macro  hidden-outline">
+<h2 id=3D"CodeCoverageForJavaApplications-Howtocollectcodecoveragereportsfr=
+omBuild&amp;Servermachines"><strong><span class=3D"toc-item-body">How to co=
+llect code coverage reports from Build &amp; Server machines</span></strong=
+></h2>
+<p>Follow steps on Jenkins&nbsp;build machine&nbsp;</p>
+<ol>
+<li>Stop Server &amp; Collect coverage from functional tests.</li>
+<li>Push unit &amp; integration coverage numbers to Sonar.</li>
+<li><p>Restart Server with Jacoco instrument mode.</p><p><u><em><strong>Jen=
+kins Job:</strong></em></u><em><strong>&nbsp;</strong></em><a href=3D"https=
+://predix2.jenkins.build.ge.com/job/OG-Automation_Bangalore_Team/job/Code_C=
+overage_Jobs/job/Push_DataSource_Service_Coverage_Sonar_Job/" class=3D"exte=
+rnal-link" rel=3D"nofollow">https://predix2.jenkins.build.ge.com/job/OG-Aut=
+omation_Bangalore_Team/job/Code_Coverage_Jobs/job/Push_DataSource_Service_C=
+overage_Sonar_Job/</a></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>Jenkins Coverage Job</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">echo "-=
+---------------Kill Server and collect unit &amp; integration coverage numb=
+ers----------------"
+ssh -o StrictHostKeyChecking=3Dno -i blr-analytics.pem ec2-user@$datasource=
+serviceIP &lt;&lt; EOF
+ hostname
+ cd DataSourceServices/target
+ sudo pkill -2 java
+ fuser 8080/tcp
+ sudo kill -2 $(lsof -t -i:8080)
+ fuser 8080/tcp
+EOF
+echo "----------------Copy target from Server to Build Machine &amp; Pushin=
+g coverage numbers to Sonar Qube----------------"
+scp -o StrictHostKeyChecking=3Dno -i blr-analytics.pem -r ec2-user@$datasou=
+rceserviceIP:/home/ec2-user/DataSourceServices/. $PWD
+npm i sonar-scanner@3.0.3
+npm i sonar-scanner@3.0.3 -g
+sonar-scanner
+echo "----------------Start Server in Instrumented Mode ----------------"
+ssh -o StrictHostKeyChecking=3Dno -i blr-analytics.pem ec2-user@$datasource=
+serviceIP &lt;&lt; EOF
+ sudo su
+ export PORT=3D'8080'
+ hostname
+ cd DataSourceServices/target
+ rm -rf jacoco-it.exec
+ screen -d -m bash -c "java -javaagent:/home/ec2-user/org.jacoco.agent-0.7.=
+8-runtime.jar=3Dincludes=3D*,destfile=3D/home/ec2-user/DataSourceServices/t=
+arget/jacoco-it.exec,dumponexit=3Dtrue,output=3Dfile -javaagent:/home/ec2-u=
+ser/newrelic.jar -jar dataservice-0.0.1.jar &gt;/var/log/datasourceservice/=
+app_log.log 2&gt;&amp;1 &lt;/dev/null"
+ fuser 8080/tcp
+ cd ..
+ cd target
+ ls -l
+EOF</pre>=20
+</div>
+</div><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></li>
+</ol>
+</div>
+<p><span class=3D"toc-item-body"><br></span></p>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_20349_1829985415.1522222789706--
